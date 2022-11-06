@@ -16,7 +16,7 @@ exports.registrasi = (data) =>
                         }else{
                             data.password = hash
                             userModel.create(data)
-                                .then(() => resolve(response.commonSuccessMsg("Berhasil registrasi!")))
+                                .then(() => resolve(response.commonSuccessMsg("Berhasil Registrasi!")))
                                 .catch(() => reject(response.commonErrorMsg("Registrasi Gagal")))
                         }
                     })
