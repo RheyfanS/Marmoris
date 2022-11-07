@@ -425,7 +425,7 @@ section{
 
 .review .box-container .box .stars i{
     font-size: 1.5rem;
-    color:var(--main-color);
+    color:gold;
 }
 
 .contact .row{
@@ -587,6 +587,12 @@ section{
     color:black;
     ;
 }
+.box-1{
+    height: 850px;
+    background-size: fill;
+}
+
+
 
 
 
