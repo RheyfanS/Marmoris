@@ -32,6 +32,7 @@ exports.login = (data) =>
             if(user){
                 if(bcrypt.compareSync(data.password, user.password)){
                     resolve(response.commonResult(user))
+                    res.redirect('index')
                 }else{
                     reject(response.commonErrorMsg("Password Salah"))
                 }

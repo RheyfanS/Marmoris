@@ -13,4 +13,7 @@ router.post('/login', (req, res) =>{
         .catch((err) => res.json(err))
 })
 
+// router.get('/index', (req, res) =>{
+//     res.render('index')
+// })
 module.exports = router
